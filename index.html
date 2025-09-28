@@ -10,13 +10,16 @@
       font-family: 'EB Garamond', serif;
       margin: 0;
       padding: 0;
-      background: #cce7ff; /* azul claro */
+      background: #1e3a5f url('https://i.ibb.co/znjzVhL/cute-spiderman.png'), 
+                  url('https://i.ibb.co/zSrwS2m/cute-captain.png'); 
+      background-repeat: repeat;
+      background-size: 100px;
       color: #ff0000; /* vermelho */
     }
     header {
       text-align: center;
       padding: 40px 20px;
-      background: #99d6ff;
+      background: rgba(38, 77, 115, 0.95); /* azul intermediário translúcido */
       position: relative;
     }
     header h1 {
@@ -26,7 +29,7 @@
     section {
       max-width: 900px;
       margin: 40px auto;
-      background: #ffffffcc;
+      background: #ffffffdd;
       padding: 20px 30px;
       border-radius: 15px;
       box-shadow: 0 6px 20px rgba(0,0,0,0.1);
@@ -36,6 +39,10 @@
       text-align: center;
       font-size: 2em;
       margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
     }
     section p {
       line-height: 1.6;
@@ -80,7 +87,12 @@
     footer {
       text-align: center;
       padding: 20px;
-      background: #99d6ff;
+      background: rgba(38, 77, 115, 0.95);
+      color: white;
+    }
+    .icon {
+      width: 40px;
+      height: 40px;
     }
   </style>
 </head>
@@ -97,32 +109,48 @@
 
   <!-- Sobre nós -->
   <section id="sobre-nos">
-    <h2>Sobre Nós</h2>
+    <h2>
+      <img src="https://i.ibb.co/zSrwS2m/cute-captain.png" class="icon" alt="Capitão fofo">
+      Sobre Nós
+      <img src="https://i.ibb.co/znjzVhL/cute-spiderman.png" class="icon" alt="Homem-Aranha fofo">
+    </h2>
     <p>Nós somos um futuro casal muito incrível.</p>
   </section>
 
   <!-- Sugestões / Feedback -->
   <section id="sugestoes">
-    <h2>Sugestões e Feedbacks</h2>
+    <h2>
+      <img src="https://i.ibb.co/znjzVhL/cute-spiderman.png" class="icon" alt="Spidey fofo">
+      Sugestões e Feedbacks
+    </h2>
     <p>Deixe aqui suas mensagens ou ideias! 💌</p>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfDqN0w7_example_form/viewform?embedded=true">Carregando…</iframe>
+    <iframe src="https://form.typeform.com/to/LX4XWDxJ" title="Formulário de Feedback"></iframe>
   </section>
 
   <!-- Textos -->
   <section id="textos">
-    <h2>Textos</h2>
+    <h2>
+      <img src="https://i.ibb.co/zSrwS2m/cute-captain.png" class="icon" alt="Capitão fofo">
+      Textos
+    </h2>
     <iframe src="https://docs.google.com/document/d/1A2B3C_example_doc/preview"></iframe>
   </section>
 
   <!-- Poemas -->
   <section id="poemas">
-    <h2>Poemas</h2>
+    <h2>
+      Poemas
+      <img src="https://i.ibb.co/znjzVhL/cute-spiderman.png" class="icon" alt="Spidey fofo">
+    </h2>
     <iframe src="https://docs.google.com/document/d/1D4E5F_example_doc/preview"></iframe>
   </section>
 
   <!-- Coisas fofas -->
   <section id="coisas-fofas">
-    <h2>Coisas Fofas</h2>
+    <h2>
+      <img src="https://i.ibb.co/zSrwS2m/cute-captain.png" class="icon" alt="Capitão fofo">
+      Coisas Fofas
+    </h2>
     <div class="gallery">
       <img src="https://i.ibb.co/2s9VjV3/fofo1.png" alt="Heroi fofo 1">
       <img src="https://i.ibb.co/6gYJ3qF/fofo2.png" alt="Heroi fofo 2">
@@ -133,7 +161,10 @@
 
   <!-- Us -->
   <section id="us">
-    <h2>Us</h2>
+    <h2>
+      <img src="https://i.ibb.co/znjzVhL/cute-spiderman.png" class="icon" alt="Spidey fofo">
+      Us
+    </h2>
     <p>Aqui você vai me dizer o que colocar depois!</p>
   </section>
 
